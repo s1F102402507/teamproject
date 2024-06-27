@@ -1,11 +1,28 @@
-h1{
-    color: brown;
+#sidebar{
+    float:left;
+    background-color:antiquewhite; 
+    width:20%;
 }
 
-.left{
+#main{
+    width:80%;
+    float:left;
+}
+
+#main img{
+    width: 35%;
     float: left;
-    width: 200px;
-    height: 550px;
-    padding: 1em;
-    background-color: antiquewhite;
+    padding-top: 6em;
+    margin-left: 20px;
+    margin-bottom:20px;
+    object-fit: contain;
+
+}
+
+h1{
+    float: left;
+}
+
+#schedule h2{
+    border-bottom: solid 1px #cc0000;
 }
